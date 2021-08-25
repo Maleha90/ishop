@@ -1,0 +1,139 @@
+.brand {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+
+}
+.brand h3 {
+    color: #535151;
+    font-size: 2.0em;
+    font-weight: 600;
+    padding: 0 1em;
+    display: block;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.dropdown {
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+}
+.dropdown:hover {
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.fashions2>li>img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.del {
+    font-size: 25px;
+}
+.quantity {
+    outline: none;
+    padding: 12px;
+    border: none;
+    background: #eeeeee;
+    width: 77%;
+    margin-left: 13%;
+}
+.quantity>p {
+    margin-top: 0;
+    color: #4c4c4c;
+}
+
+.slider2 {
+    width: 48%;
+}
+.breadcrumbs {
+    background-color: #1a1818;
+}
+.breadcrumb {
+    background-color: #1a1818;
+}
+.breadcrumb > li {
+    color: #a70101;
+}
+.available {
+    padding: 1em 0;
+}
+.available ul{
+    padding:0;
+    margin:0;
+}
+.available ul li {
+    list-style: none;
+    padding: 0 0.5em 0 0;
+    color: #4c4c4c;
+    font-size: 1.1em;
+    float: left;
+    width: 100%;
+    margin: 0.5em 0;
+}
+.available ul li select {
+    outline: none;
+    padding: 12px;
+    border: none;
+    background: #eeeeee;
+    width: 77%;
+    margin-left: 13%;
+    cursor: pointer;
+}
+.available ul li.size-in select {
+    margin-left: 16%;
+}
+
+.fashion-grid {
+    margin-bottom: 2em;
+}
+
+.product>small>del {
+    color: #686767;
+    font-size: 1em;
+    margin: 1em 1em 0 0;
+    display: inline-block;
+    font-weight: 600;
+}
+
+#cart table img,
+.cart table img{
+    height: 100px;
+}
+
+.name-title {
+    color: #0f1217;
+    text-decoration: none;
+}
+
+.del-item {
+    cursor: pointer;
+}
+
+.pagination>.active>a {
+    background-color: #1a1818;
+    border-color: #9f0000;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #9f0000;
+}
+
+.table>tbody>tr>td>a {
+    color: #1a1818;
+}
+.closed {
+    width: 10px;
+}
+
+.categories > p {
+    font-size: x-large;
+}
+
+@media (min-width: 425px) and (max-width: 246px) {
+    
+}
